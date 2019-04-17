@@ -78,7 +78,6 @@ for (i = 0; i < inventory.length; i++) {
     carModels += inventory[i].car_model;
 }
 
-carModels.sort();
 
 console.log(carModels);
 
