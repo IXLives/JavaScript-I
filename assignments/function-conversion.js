@@ -42,3 +42,9 @@ console.log(subtract(1,2));
 //   return num * 3;
 // });
 // console.log(triple);
+
+let subject = [1, 2, 3, 4];
+
+const trips = subject.map(x => x * 3);
+
+console.log(trips);
